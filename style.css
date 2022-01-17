@@ -1,0 +1,99 @@
+/* default styling */
+/* using elemnt selector....CAN USE BODY TAG ALSO */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* using  DESCENDENT css selectors,these are also called as combinators */
+header h1{
+    font-weight:400 ;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    margin: 0 3rem;
+}
+/* specifying width of nav bar so that elements can take space between....otherwie utni hi spaceleta jitni elements space lete to koi bhi spacebetween aa hi nhi pata */
+nav{
+    /* position:relative is used allow the movement of the element wrt its default position */
+    position:relative;
+    top:1rem;
+    right:3rem;
+    width: 20rem;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+
+/* class selector */
+.showcase_img{
+    /* for setting a/c to viewport */
+    width:95vw;    
+    
+    margin:1rem;
+}
+
+
+/* by me */
+/* article{
+    display:flex;
+    margin:2rem;
+}
+div{
+    margin:5rem
+}
+div h1{
+    position: relative;
+    left:2rem;
+
+
+}
+div p{
+    position: relative;
+    right:1rem;
+    font-size:25px;
+} */
+
+
+article{
+    display:flex;
+    margin: 1.5 rem;
+}
+/* class selector */
+.container{
+    text-align: center;
+    margin-right: 2rem;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+h1{
+    font-weight: 600;
+}
+footer{
+    background-color: black;
+    color: white;
+    height:4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+
+/* hovering effect */
+/* puesdo class--->alag se inherit krke class de rhe/property */
+a:hover{
+    color:red;
+}

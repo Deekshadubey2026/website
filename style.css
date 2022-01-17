@@ -9,6 +9,7 @@ html{
 header h1{
     font-weight:400 ;
 }
+/* element selector */
 header{
     display:flex;
     justify-content:space-between;
